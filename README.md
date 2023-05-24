@@ -5,7 +5,7 @@ Repo to host assignments from CS5265 - Foundations of Machine Learning Course
 
 //Should include reference to business metrics such as cost/revenue etc. perhaps this shstem could be useful in professional sports management. How much money does a win or loss represent? This may also be useful for a business that manages online bets. Odds calculated based on this type of system could save the "house" quite a bit from unexpected payouts, perhaps. RH
 
-#Intro
+# Intro
 According to Front Office Sports (https://frontofficesports.com/sports-betting-industry-record-7-5b-2022-revenue/#:~:text=Commercial%20sports%20betting%20revenue%20hit,from%20the%20American%20Gaming%20Association), the sports betting market generates $7.5 Billion dollars each year and that number seems to keep growing. Needless to say there is a gold mine for those who can predict sports outcomes best and loads of potential careers as developers for companies that manage online bets such as FanDuel, BetMGM and DraftKings
 
 ## Confusion Table
