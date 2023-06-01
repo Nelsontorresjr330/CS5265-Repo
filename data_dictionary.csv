@@ -1,34 +1,34 @@
-Feature,Description
-date,Date of game
-elo1_post,Home team's Elo rating after the game
-elo1_pre,Home team's Elo rating before the game
-elo2_post,Away team's Elo rating after the game
-elo2_pre,Away team's Elo rating before the game
-elo_prob1,Home team's probability of winning according to Elo ratings
-elo_prob2,Away team's probability of winning according to Elo ratings
-importance,"Rating of game's importance, based on how much the result would affect the model's forecasted playoff odds, scaled from 0-100"
-neutral,Whether game was on a neutral site
-playoff,"Whether game was in playoffs, and the playoff round if so"
-qb1,Name of home starting quarterback
-qb1_adj,Home starting quarterbacks's Elo adjustment for the game
-qb1_game_value,Home quarterback's Elo value during this game
-qb1_value_post,Home starting quarterbacks's raw Elo value after the game
-qb1_value_pre,Home starting quarterbacks's raw Elo value before the game
-qb2,Name of away starting quarterback
-qb2_adj,Away starting quarterbacks's Elo adjustment for the game
-qb2_game_value,Away quarterback's Elo value during this game
-qb2_value_post,Away starting quarterbacks's raw Elo value after the game
-qb2_value_pre,Away starting quarterbacks's raw Elo value before the game
-qbelo1_post,Home team's quarterback-adjusted base rating after the game
-qbelo1_pre,Home team's quarterback-adjusted base rating before the game
-qbelo2_post,Away team's quarterback-adjusted base rating after the game
-qbelo2_pre,Away team's quarterback-adjusted base rating before the game
-qbelo_prob1,Home team's probability of winning according to quarterback-adjusted Elo
-qbelo_prob2,Away team's probability of winning according to quarterback-adjusted Elo
-quality,"Rating of game's quality, based on the harmonic mean of the teams’ pregame Elo ratings, scaled from 0-100"
-score1,Home team's score
-score2,Away team's score
-season,Year of season
-team1,Abbreviation for home team
-team2,Abbreviation for away team
-total_rating,The average of quality and importance
+Feature,Description,Data Type
+date,Date of game,DATE
+elo1_post,Home team's Elo rating after the game,FLOAT
+elo1_pre,Home team's Elo rating before the game,FLOAT
+elo2_post,Away team's Elo rating after the game,FLOAT
+elo2_pre,Away team's Elo rating before the game,FLOAT
+elo_prob1,Home team's probability of winning according to Elo ratings,FLOAT (0-1)
+elo_prob2,Away team's probability of winning according to Elo ratings,FLOAT (0-1)
+importance,"Rating of game's importance, based on how much the result would affect the model's forecasted playoff odds, scaled from 0-100",INTEGER (0-100)
+neutral,Whether game was on a neutral site,BOOLEAN
+playoff,"Whether game was in playoffs, and the playoff round if so",CHARACTER
+qb1,Name of home starting quarterback,STRING
+qb1_adj,Home starting quarterbacks's Elo adjustment for the game,FLOAT
+qb1_game_value,Home quarterback's Elo value during this game,FLOAT
+qb1_value_post,Home starting quarterbacks's raw Elo value after the game,FLOAT
+qb1_value_pre,Home starting quarterbacks's raw Elo value before the game,FLOAT
+qb2,Name of away starting quarterback,STRING
+qb2_adj,Away starting quarterbacks's Elo adjustment for the game,FLOAT
+qb2_game_value,Away quarterback's Elo value during this game,FLOAT
+qb2_value_post,Away starting quarterbacks's raw Elo value after the game,FLOAT
+qb2_value_pre,Away starting quarterbacks's raw Elo value before the game,FLOAT
+qbelo1_post,Home team's quarterback-adjusted base rating after the game,FLOAT
+qbelo1_pre,Home team's quarterback-adjusted base rating before the game,FLOAT
+qbelo2_post,Away team's quarterback-adjusted base rating after the game,FLOAT
+qbelo2_pre,Away team's quarterback-adjusted base rating before the game,FLOAT
+qbelo_prob1,Home team's probability of winning according to quarterback-adjusted Elo,FLOAT (0-1)
+qbelo_prob2,Away team's probability of winning according to quarterback-adjusted Elo,FLOAT (0-1)
+quality,"Rating of game's quality, based on the harmonic mean of the teams’ pregame Elo ratings, scaled from 0-100",INTEGER (0-100)
+score1,Home team's score,INTEGER
+score2,Away team's score,INTEGER
+season,Year of season,YEAR
+team1,Abbreviation for home team,STRING
+team2,Abbreviation for away team,STRING
+total_rating,The average of quality and importance,INTEGER (0-100)
